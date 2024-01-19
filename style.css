@@ -33,12 +33,12 @@ nav a {
 
 nav a:hover {
   background-color: #555;
-  color: #FF5733; /* Font color on hover */
+  color: #FF5733; 
   transform: scale(1.05);
 }
 
 header.scrolled {
-  background-color: #555; /* Background color on scroll */
+  background-color: #555;
 }
 
 #home-section,
