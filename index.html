@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Interactive Navigation Menu</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="nav-link" onclick="changeContent('Home')">Home</a>
+      <a href="#" class="nav-link" onclick="changeContent('About')">About</a>
+      <a href="#" class="nav-link" onclick="changeContent('Contact')">Contact</a>
+    </nav>
+  </header>
+
+  <div class="content" id="home-section">
+    <h1 id="main-heading">TASK 01</h1>
+    <h2>Click "About" to know me.</h2>
+    <h2>Click "Contact" for my Gmail.</h2>
+  </div>
+
+  <div class="content hidden" id="about-section">
+    <h1> Vishal Mane</h1>
+    <p>Vishal Mane completed task 1.</p>
+  </div>
+
+  <div class="content hidden" id="contact-section">
+    <h1>Contact Information</h1>
+    <p>Email: vishalmane0830@gmail.com</p>
+  </div>
+
+  <script src="res.js"></script>
+</body>
+</html>
